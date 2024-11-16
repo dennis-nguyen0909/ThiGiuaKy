@@ -28,5 +28,7 @@ int main(){
 	}else{
 		cout << "La so chan";
 	}
+	cout <<"test conflict " ;
+	
 	return 0;
 }
