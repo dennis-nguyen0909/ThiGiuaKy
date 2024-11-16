@@ -12,7 +12,7 @@ int main(){
 	cout << "So nguyen vua nhap la : " <<n<<endl;
 	
 	bool kqLe = kiemTraLe(n);
-	if(kqLe){
+	if(!kqLe){
 		cout << "La so le";
 	}else{
 		cout << "La so chan";
