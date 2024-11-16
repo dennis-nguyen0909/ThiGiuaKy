@@ -4,6 +4,11 @@ using namespace std;
 bool kiemtraChan(int n){
 	return n%2==0;
 }
+
+bool kiemTraLe(int n){
+	return n % 2 ==0;
+}
+
 int main(){
 	int n;
 	cout << "Nhap vao mot so nguyen :" <<endl;
@@ -17,5 +22,11 @@ int main(){
 		cout<<"Ko la so chan"<<endl;
 	}
 	
+	bool kqLe = kiemTraLe(n);
+	if(!kqLe){
+		cout << "La so le";
+	}else{
+		cout << "La so chan";
+	}
 	return 0;
 }
