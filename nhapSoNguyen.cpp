@@ -17,5 +17,7 @@ int main(){
 		cout<<"Ko la so chan"<<endl;
 	}
 	
+	cout <<"test conflict " ;
+	
 	return 0;
 }
